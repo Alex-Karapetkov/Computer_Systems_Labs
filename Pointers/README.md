@@ -23,7 +23,7 @@ The lab materials and initial code were designed by **Professor Michael S. Kirkp
   Then use 'start' and 'backtrace' within GDB to analyze faults.
 
 
-🧾 License
+## 🧾 License
 The contents of this repository are provided for reference and educational review only.
 
 🔒 No permission is granted to reuse, distribute, or submit this code, in whole or in part, for academic, commercial, or training purposes. The lab specifications and structure are the intellectual property of James Madison University and Professor Michael S. Kirkpatrick.
