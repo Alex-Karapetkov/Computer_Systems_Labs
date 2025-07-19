@@ -1,0 +1,5 @@
+INTEG_fork                     pass
+INTEG_fork_no_file             pass
+INTEG_spawn                    pass
+INTEG_spawn_bad                pass
+No memory leak found.
