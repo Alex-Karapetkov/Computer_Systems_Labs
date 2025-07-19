@@ -34,7 +34,7 @@ This lab implements a basic TCP server that performs the following:
 
 ### Build the program using GCC:
 ```bash
-gcc -Wall -Wextra -o webserver main.c server.c utils.c
+gcc -o webserver main.c server.c utils.c
 ```
 ### Or build using the included Makefile:
 ```bash
