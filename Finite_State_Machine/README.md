@@ -47,6 +47,11 @@ The executable simulates the FSM by accepting a sequence of event codes as comma
 gcc -o fsm main.c procmodel.c statemodel.c effects.c
 ```
 
+### Or build using the included Makefile:
+```bash
+make
+```
+
 3. Run the executable from the command line by passing a sequence of event numbers as arguments.
 
 ### Event Codes:
