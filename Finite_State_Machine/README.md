@@ -39,6 +39,16 @@ The code and implementation here are **my own work**. This repository is provide
 
 The executable simulates the FSM by accepting a sequence of event codes as command-line arguments. Each event triggers a transition and associated effects within the FSM.
 
+1. Clone or download the repository to your local machine.
+
+2. Build the project using your preferred C compiler (e.g., gcc). For example:
+
+```bash
+gcc -o fsm main.c procmodel.c statemodel.c effects.c
+```
+
+3. Run the executable from the command line by passing a sequence of event numbers as arguments.
+
 ### Event Codes:
 
 | Event    | Code |
