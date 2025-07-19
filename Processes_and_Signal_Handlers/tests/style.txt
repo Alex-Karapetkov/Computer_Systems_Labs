@@ -1,0 +1,6 @@
+child.c                        pass
+child.h                        pass
+main.c                         pass
+signals.c                      pass
+signals.h                      pass
+Code correctly adheres to required style.

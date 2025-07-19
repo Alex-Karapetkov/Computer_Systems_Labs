@@ -1,0 +1,4 @@
+Child starting
+I am the child
+Child exited with status 42
+I am the parent

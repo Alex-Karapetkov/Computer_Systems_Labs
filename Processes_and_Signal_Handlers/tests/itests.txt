@@ -1,0 +1,5 @@
+INTEG_child                    pass
+INTEG_sigint                   pass
+INTEG_segfault                 pass
+INTEG_kill                     pass
+No memory leak found.

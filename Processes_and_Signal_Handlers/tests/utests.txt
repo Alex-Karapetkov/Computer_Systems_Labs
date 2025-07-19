@@ -1,0 +1,10 @@
+Running suite(s): Default
+
+======================================
+UNIT good signals
+This test checks for signal name lookups
+
+======================================
+UNIT bad signals
+This test checks for other signal name lookups
+100%: Checks: 2, Failures: 0, Errors: 0
