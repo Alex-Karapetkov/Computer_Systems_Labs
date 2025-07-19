@@ -35,6 +35,12 @@ These files contain test content that can be used to verify that the program cor
 ```bash
 gcc -o ipc main.c pipe.c
 ```
+
+### Or build using the included Makefile:
+```bash
+make
+```
+
 ### ▶️ Run (default using fork()/exec())
 ```bash
 ./ipc data/f1.txt
