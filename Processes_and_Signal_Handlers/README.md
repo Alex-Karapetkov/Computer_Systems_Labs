@@ -36,7 +36,7 @@ The lab demonstrates safe, predictable handling of system-level signals and prov
 
 1. **Compile the program**:
    ```bash
-   gcc -Wall -Wextra -o procs main.c child.c signals.c
+   gcc -o procs main.c child.c signals.c
 
 2. Run default mode (basic fork + wait):
    ```bash
