@@ -38,6 +38,11 @@ The lab demonstrates safe, predictable handling of system-level signals and prov
    ```bash
    gcc -o procs main.c child.c signals.c
 
+### Or build using the included Makefile:
+```bash
+make
+```
+
 2. Run default mode (basic fork + wait):
    ```bash
    ./procs
