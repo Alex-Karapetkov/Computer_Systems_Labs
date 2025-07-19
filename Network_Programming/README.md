@@ -34,14 +34,14 @@ To clean compiled files and executables, run:
 ```bash
 make clean
 ```
-Manual compilation:
+### Manual compilation:
 Alternatively, compile manually with:
 
 ```bash
 gcc -o net main.c client.c
 ```
 
-Running the program:
+### Running the program:
 ```bash
 ./net [options] domain
 ```
@@ -61,7 +61,7 @@ Test the program with real domain names and HTTP files, for example:
 ./net -p http www.jmu.edu
 ./net -6 -w /index.html www.example.com
 ```
-⚠️ License and Usage
+## ⚠️ License and Usage
 The contents of this repository are provided for reference and educational review only.
 
 🔒 No permission is granted to reuse, distribute, or submit this code, in whole or in part, for academic, commercial, or training purposes. The lab specifications and materials are the intellectual property of James Madison University and Professor Michael S. Kirkpatrick.
