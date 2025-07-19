@@ -41,7 +41,7 @@ gcc -o webserver main.c server.c utils.c
 make
 ```
 
-This will produce an executable named net.
+This will produce an executable named 'webserver'.
 
 ### Run the server:
 ```bash
