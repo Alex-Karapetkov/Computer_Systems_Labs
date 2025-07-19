@@ -1,0 +1,28 @@
+Running suite(s): Default
+======================================
+PUBLIC
+  UNIT addr string localhost v4
+  Convert 32-bit integer address for localhost
+  into dotted-decimal 127.0.0.1 string format.
+
+  IPv4 address for localhost is '127.0.0.1'
+
+======================================
+PUBLIC
+  UNIT get server list localhost
+  Use getaddrinfo() to gather information about localhost
+  for the HTTP protocol with IPv4. Requires network access
+  to get information from DNS.
+
+  IPv4 address for localhost is 0x7f000001
+
+======================================
+PUBLIC
+  UNIT serv string localhost
+  Converts a struct addrinfo into a string that contains
+  the transport-layer protocol, IP version, and IP address
+  in the appropriate format.
+
+  Server information for localhost: 'TCP IPv4 127.0.0.1'
+
+100%: Checks: 3, Failures: 0, Errors: 0

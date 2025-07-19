@@ -1,0 +1,12 @@
+INTEG_localhost_ipv4           pass
+INTEG_localhost_ipv6           pass
+INTEG_w3_ipv6                  pass
+INTEG_w3_ipv4                  pass
+INTEG_53_ns3                   pass
+INTEG_53_ns3_ipv6              pass
+EXTRA_youtube                  pass
+EXTRA_w3_index                 pass
+EXTRA_nope                     pass
+Memory leak(s) found. See files listed below for details.
+  - valgrind/INTEG_53_ns3_ipv6.txt
+  - valgrind/INTEG_w3_ipv6.txt
